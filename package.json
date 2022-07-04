@@ -1,0 +1,16 @@
+{
+  "name": "twitter-ads-ratio",
+  "version": "1.0.0",
+  "description": "A Twitter bot that ratio Twitter ads",
+  "main": "src/index.js",
+  "repository": "https://github.com/NetherMCtv/Twitter-AdsRatio",
+  "author": "NetherMC",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "twit": "^2.2.11"
+  }
+}
