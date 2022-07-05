@@ -6,12 +6,14 @@
   "scripts": {
     "start": "nodemon ."
   },
-  "devDependencies": {
-    "nodemon": "^2.0.18"
-  },
   "dependencies": {
     "dotenv": "^16.0.1",
     "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.1",
+    "@types/twit": "^2.2.30",
+    "nodemon": "^2.0.18"
   },
   "repository": "https://github.com/NetherMCtv/Twitter-AdsRatio",
   "author": "NetherMC",

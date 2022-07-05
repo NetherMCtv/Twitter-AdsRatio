@@ -14,17 +14,12 @@ T.get('search/tweets', {
   q: 'a',
   count: 1000,
   exclude_replies: true,
-  lang: 'fr',
-  locale: 'fr',
-  include_rts: false,
-  tweet_mode: 'ad'
-}, function(err, data, response) {
-  //console.log(data);
+  include_rts: false
+}, (err, data, res) => {
+  if (err) throw err;
 
   data.statuses.map(tweet => {
     console.log(tweet.source);
     //if (!tweet.source.includes('Twitter for Advertisers')) return;
   });
-
-  console.log(response);
 });
